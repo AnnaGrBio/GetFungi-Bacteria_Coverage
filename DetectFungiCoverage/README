@@ -1,0 +1,26 @@
+---> What is GetFungusCoverage.py
+
+The script GetFungusCoverage.py is a program written to detect the coverage of a fungus/bacteria on a Petri dish.
+The program works on png images of Petri dishes that have to be contained in the same folder.
+The final output file gives the name of the png image of the Petri dish, associated with the coverage of the fungus/bacteria growing in it.
+
+
+---> How to run GetFungusCoverage.py
+
+*** This program has been designed to detect the coverage of fungal colonies of more than 10 000 pictures, all coming from a very particular experimental setting, and adapted to the specific format of the thus produced images. In particular, this version of the program gives a correction for the PNG format pictures provided by this experiment.
+
+!!!! Nevertheless, an updated version of this program will be uploaded soon. We strongly recommend that potential users wait for the second version,that will be adapted to any png picture that follows a couple of instructions !!!
+
+Thought,  if the user is a python programmer, he can adapt the script by himself.
+
+To run this program, one needs to have a Mac/Linux environment
+ and must have installed python, matplotlib, and PIL. The program, for now, works with 2.7 and more python versions.
+
+
+For a couple of functions, the user would have to display the name of his folder and the path to its images.
+
+
+---> Example
+
+An image is provided in the program. Any user can run the program on that image to get an overview of the results.
+Also, several prints are distributed in the program. They can be used to see how the program works and is correcting the picture, i.e., the particular corrections setup for the experiment it was designed for initially. 
